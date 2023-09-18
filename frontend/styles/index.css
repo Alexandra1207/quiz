@@ -1,0 +1,26 @@
+.main {
+    padding: 190px 0 231px;
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__content {
+    max-width: 588px;
+
+}
+
+.main__title {
+    margin-bottom: 40px;
+}
+
+.main__description {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 486px;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    color: #333333;
+}
+
+a {
+    color: #6933DC;
+}
+
+@font-face {
+    src: url("../static/fonts/MuseoSansCyrl-500.ttf");
+    font-family: "Museo Sans Cyrl";
+}
+
+@font-face {
+    src: url("../static/fonts/MuseoSansCyrl-700.ttf");
+    font-family: "Museo Sans Cyrl Bold";
+}
+
+.header {
+    padding: 42px 0 40px;
+    border-bottom: 1px solid #DCDCF3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.big-title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+}
+
+.big-title span {
+    color: #6933DC;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: none;
+    align-items: center;
+}
+
+.profile__image {
+    margin-right: 5px;
+}
+
+.profile__user {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.profile__logout {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.button {
+    padding: 14px 35px;
+    border-radius: 6px;
+    background-color: #6933DC;
+    font-size: 17px;
+    line-height: 20.4px;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #32098a;
+}
+
+.button:disabled {
+    background-color: #E2DEF7;
+    cursor: not-allowed;
+
+}
+
+.button:disabled:hover {
+    cursor: not-allowed;
+    background-color: transparent;
+    color: #E2DEF7;
+}
+
+
+.button-transparent {
+    background-color: transparent;
+    color: #6933DC;
+    border: 1px solid #6933DC;
+}
+
+.button-transparent:disabled {
+    background-color: transparent;
+    color: #E2DEF7;
+    border: 1px solid #E2DEF7;
+}
+
+.button-transparent:hover {
+    background-color: #6933DC;
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 13px;
+    line-height: 15.6px;
+    color: #DCDCF3;
+}
+
+.title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.title span {
+    color: #6933DC;
+}
+
+.question-title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.question-title span {
+    color: #6933DC;
+
+}
